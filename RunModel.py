@@ -5,8 +5,8 @@ import cv2
 model = YOLO("runs/train/custom_yolo/weights/best.pt")
 
 # Input & output videos
-input_video = "input.mp4"
-output_video = "output_annotated.mp4"
+input_video = "run_model_input.mp4"
+output_video = "run_model_output_annotated.mp4"
 
 # Open video
 cap = cv2.VideoCapture(input_video)

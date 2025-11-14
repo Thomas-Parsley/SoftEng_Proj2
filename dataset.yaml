@@ -3,4 +3,3 @@ val: dataset/images/val
 
 nc: 5  # number of classes
 names: ["cat", "dog", "person", "lightsaber", "dalek"]
-# 
