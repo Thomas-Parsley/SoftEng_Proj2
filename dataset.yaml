@@ -1,6 +1,6 @@
-train: dataset/images/train
-val: dataset/images/val
+train: work/train/images
+val: work/valid/images
 
 nc: 5  # number of classes
-names: ["cat", "dog", "person", "lightsaber", "dalek"]
+names: ["dalek", "lightsaber", "cat", "dog", "person"]
 # 

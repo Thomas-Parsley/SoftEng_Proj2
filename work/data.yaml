@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['dalek', 'lightsaber']
+
+roboflow:
+  workspace: proj2soft
+  project: soft_proj2-9fqhc
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/proj2soft/soft_proj2-9fqhc/dataset/5
