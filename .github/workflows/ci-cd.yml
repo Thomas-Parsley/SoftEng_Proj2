@@ -29,7 +29,7 @@ jobs:
 
       # 4) Run our very simple test (CI)
       - name: Run tests
-        run: pytest -q tests/test_dummy.py
+        run: pytest -q 
 
       # 5) Run your object recognition script (CD)
       - name: Run object recognition script
