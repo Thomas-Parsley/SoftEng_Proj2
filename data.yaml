@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['cat', 'dalek', 'dog', 'human', 'lightsaber', 'objects', 'sith saber']
+
+roboflow:
+  workspace: proj2soft
+  project: soft_proj2-9fqhc
+  version: 11
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/proj2soft/soft_proj2-9fqhc/dataset/11
