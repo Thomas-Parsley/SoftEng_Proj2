@@ -25,7 +25,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pytest torch opencv-python numpy
+          pip install pytest torch opencv-python numpy ultralytics
 
       # 4) Run our very simple test (CI)
       - name: Run tests
