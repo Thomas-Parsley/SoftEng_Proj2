@@ -1,0 +1,10 @@
+train: ./data/train/images
+val: ./data/valid/images
+test: ./data/test/images
+
+names:
+  0: person
+  1: cat
+  2: dog
+  3: dalek
+  4: lightsaber
