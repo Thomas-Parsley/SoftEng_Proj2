@@ -1,3 +1,11 @@
 Training/1.0/yolo11n.pt
 Training/1.0/yolov8x.pt
 Training/1.0/yolov8s.pt
+/Training/2.0/data
+/Training/3.0/data
+/Training/4.0/data
+Training/2.0/yolov8s.pt
+Training/4.0/yolov8s.pt
+/Training/Soft_Proj2.v10i.yolov8
+Training/yolo11n.pt
+Training/yolov8s.pt
