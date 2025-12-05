@@ -1,0 +1,5 @@
+train: ../work/train/images
+val: ../work/valid/images
+
+nc: 5
+names: ["dalek", "lightsaber", "cat", "dog", "person"]
