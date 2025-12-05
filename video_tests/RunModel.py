@@ -24,12 +24,12 @@ def main():
         None
     """
     # Load your trained model
-    model = YOLO("runs/detect/dect_model_test_results21/weights/best.pt")
+    model = YOLO("runs/detect/dect_model_test_results22/weights/best.pt")
     #model = YOLO("yolov8x.pt")
 
     # Input & output videos
     input_video = "Untitled video.mp4"
-    output_video = "s_output (lightsabers).mp4"
+    output_video = "outputs/output (lightsabers).mp4"
 
     # Open video
     cap = cv2.VideoCapture(input_video)
