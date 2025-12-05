@@ -33,7 +33,7 @@ jobs:
 
       # 5) Run your object recognition script (CD)
       - name: Run object recognition script
-        run: python RunModel.py
+        run: python video_tests/RunModel.py
 
       # 6) Upload any outputs in the "runs" folder (if it exists)
       - name: Upload model outputs
