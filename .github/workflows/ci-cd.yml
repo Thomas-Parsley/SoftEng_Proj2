@@ -3,7 +3,7 @@ name: CI and CD - Object Recognition
 # When should this run?
 on:
   push:
-    branches: ["Landon-CI/CD"]
+    branches: ["main"]
 
 jobs:
   test-and-run:
