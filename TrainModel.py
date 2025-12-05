@@ -1,7 +1,28 @@
+"""
+TrainModel.py
+
+This script trains a YOLOv8 model on a custom dataset using the Ultralytics library.
+It loads a pretrained YOLO model, applies training parameters, and saves results
+into the runs/train/ directory.
+
+Usage:
+    python TrainModel.py
+"""
+
 from ultralytics import YOLO
 
 
 def main():
+    """
+    Trains a YOLOv8 model using parameters defined in this script.
+
+    - Loads a YOLOv8x pretrained model
+    - Trains on the dataset defined by dataset.yaml
+    - Saves results in runs/train/yolo_x_model
+
+    Returns:
+        None
+    """
     # Load YOLOv8 pretrained model
     # model = YOLO("yolov8n.pt")  # small, fast; can use yolov8s.pt, yolov8m.pt for better accuracy
     model = YOLO("yolov8x.pt")
