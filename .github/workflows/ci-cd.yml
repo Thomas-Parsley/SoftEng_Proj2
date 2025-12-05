@@ -37,6 +37,7 @@ jobs:
 
       # 6) Upload any outputs in the "runs" folder (if it exists)
       - name: Upload model outputs
+        if: false
         uses: actions/upload-artifact@v4
         with:
           name: model_outputs
