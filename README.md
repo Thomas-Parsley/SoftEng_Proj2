@@ -2,7 +2,7 @@
 Software Engineering Fall 2025 Project 2 Group 2
 
 ## Summary
-This system is used to recognize classes of things, which included:
+This system is used to recognize classes of things, which include:
 Humans
 Dogs
 Cats
