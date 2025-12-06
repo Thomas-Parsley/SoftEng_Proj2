@@ -21,3 +21,4 @@ To use the either detection, either detection should be run within the same dire
 
 ## Library Dependencies
 The libraries required and used for this project ultralytics and opencv (cv2).
+
