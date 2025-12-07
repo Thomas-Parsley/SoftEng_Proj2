@@ -1,0 +1,5 @@
+When a new model is trained and uploaded 3 tests are performed.
+
+1. A few images with multiple objects in them are run through the model. This verifies that the model is detecting objects.
+2. A larger set of randomly selected test images are run the the model, including at least 20 for each class. The accuracy for each class is calculated at this stage.
+3. A video is generated and the number of frames containing objects are compared to the number of total frames.
