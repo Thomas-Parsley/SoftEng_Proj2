@@ -4,14 +4,14 @@ import os
 
 updates = {"cat":0, "dalek":1, "dog":2, "human":3, "lightsaber":4, "objects":5, "sith_saber":6}
 classes = ["cat", "dalek", "dog", "human", "lightsaber", "objects", "sith_saber"]
-model_nums = ["22", "23", "24"]
+model_nums = ["22", "21",]
 source_dir = "5.0/data/test"
 
 model_1 = YOLO("../runs/detect/dect_model_test_results22/weights/best.pt")
-model_2 = YOLO("../runs/detect/dect_model_test_results23/weights/best.pt")
-model_3 = YOLO("../runs/detect/dect_model_test_results24/weights/best.pt")
+model_2 = YOLO("../runs/detect/dect_model_test_results21/weights/best.pt")
+# model_3 = YOLO("../runs/detect/dect_model_test_results24/weights/best.pt")
 
-models = [model_1, model_2, model_3]
+models = [model_1, model_2]
 
 def imgs_to_test(object_name):
     dir_path = source_dir + "/labels"

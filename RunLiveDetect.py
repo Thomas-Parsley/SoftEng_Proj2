@@ -24,7 +24,7 @@ def main():
         None
     """
     # Load your trained model
-    model = YOLO("runs/detect/dect_model_test_results21/weights/best.pt")
+    model = YOLO("runs/detect/dect_model_test_results22/weights/best.pt")
     #model = YOLO("yolov8x.pt")
 
     # Open webcam
