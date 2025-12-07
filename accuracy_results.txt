@@ -1,0 +1,13 @@
+Testing model number: 22
+Testing object: cat
+Accuracy for cat with model 22: 92.85714285714286%
+Testing object: dalek
+Accuracy for dalek with model 22: 96.49122807017544%
+Testing object: dog
+Accuracy for dog with model 22: 100.0%
+Testing object: human
+Accuracy for human with model 22: 85.29411764705883%
+Testing object: lightsaber
+Accuracy for lightsaber with model 22: 91.11111111111111%
+Testing object: sith_saber
+Accuracy for sith_saber with model 22: 81.81818181818183%
